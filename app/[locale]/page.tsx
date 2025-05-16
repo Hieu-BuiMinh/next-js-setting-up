@@ -7,6 +7,7 @@ export default function HomePage() {
 		<div>
 			<h1>{t('title')}</h1>
 			<Link href="/about">{t('about')}</Link>
+			<Link href="/capture-scene">Capture scene</Link>
 		</div>
 	)
 }
